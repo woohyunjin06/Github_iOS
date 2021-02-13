@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Quick
 @testable import Github
 
 class GithubTests: XCTestCase {
