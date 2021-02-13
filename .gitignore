@@ -91,6 +91,11 @@ Packages
 xcuserdata
 *.xcodeproj
 
+### Github Personal Token ###
+GithubTokenImpl.swift
+
+## Apollo Codegen ###
+ApolloCLI/
 
 ### Xcode ###
 # Xcode

@@ -1,0 +1,6 @@
+{
+  "112cb13c4bc4f37ed1d73f26538a5bfdbaf2bcc72fa9522a878e7a837737d77b": {
+    "name": "search",
+    "source": "query search($query: String!) {\n  search(query: $query, type: REPOSITORY, first: 5) {\n    __typename\n    nodes {\n      __typename\n      ... on Repository {\n        name\n      }\n    }\n  }\n}"
+  }
+}
